@@ -1,0 +1,83 @@
+.title{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: black;
+    text-transform: uppercase;
+    font-size: 4rem;
+ }
+ .quick-view form{
+    max-width: 60rem;
+    padding:2rem;
+    text-align: center;
+    border:2px solid black;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+    background-color: white;
+    margin:0 auto;
+ }
+ 
+ .quick-view form .image{
+    height: 33rem;
+    border:2px solid black;
+    border-radius: .5rem;
+ }
+ 
+ .quick-view form .name{
+    margin:1rem 0;
+    font-size: 3rem;
+    color:black;
+ }
+ 
+ .quick-view form .price{
+    color:red;
+    font-size: 2.5rem;
+    padding:.5rem 0;
+ }
+ 
+ .quick-view form .details{
+    padding:1rem 0;
+    font-size: 2rem;
+    color:#666;
+    line-height: 2;
+ }
+ 
+ .quick-view form .qty{
+    width: 100%;
+    padding:1.2rem 0rem;
+    font-size: 1.8rem;
+    color:black;
+    border-radius: .5rem;
+    border:2px solid  black;
+    margin:.5rem 0;
+ }
+ .btn,
+.delete-btn,
+.option-btn{
+   display: inline-block;
+   border-radius: .5rem;
+   margin-top: 1rem;
+   font-size: 1.8rem;
+   color:white;
+   cursor: pointer;
+   padding:1rem 3rem;
+   text-transform: capitalize;
+}
+
+.btn{
+   background-color: #e84393;
+}
+.option-btn{
+   background-color: #f39c12;
+   text-transform: capitalize;
+   text-decoration: none;
+}
+
+.btn:hover,
+.option-btn:hover{
+   background-color: black;
+}
+.more-btn{
+    margin-top: 2rem;
+    text-align: center;
+    text-decoration: none;
+ }

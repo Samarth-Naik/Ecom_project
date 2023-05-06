@@ -1,0 +1,81 @@
+.heading{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  gap:0.25rem;
+  background-color: black;
+  text-align: center;
+  min-height: 20vh;
+}
+.heading h3{
+  font-size: 5.5rem;
+  color:white;
+  text-transform: uppercase;
+}
+
+.heading p{
+  font-size: 2.5rem;
+  color:white;
+}
+
+.heading p a{
+  color:rgb(243, 23, 232);
+}
+
+.heading p a:hover{
+  text-decoration: underline;
+}
+.contact form{
+  max-width: 50rem;
+  background-color: white;
+  border-radius: .5rem;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+  border:2px solid black;
+  text-align: center;
+  padding:1rem 4rem;
+  margin:0 auto;
+}
+
+.contact form h3{
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color:black;
+  text-transform: uppercase;
+}
+
+.contact form .box{
+  width: 100%;
+  border-radius: .5rem;
+  border:2px solid black;
+  margin:1rem 0;
+  padding:1.2rem 1.4rem;
+  font-size: 1.8rem;
+  color:black;
+  background-color: white;
+}
+
+.contact form textarea{
+  height: 15rem;
+  resize: none;
+}
+.btn{
+   display: inline-block;
+   border-radius: .5rem;
+   background-color: rgb(240, 29, 205);
+   margin-top: 1rem;
+   font-size: 1.8rem;
+   color:white;
+   cursor: pointer;
+   padding:1rem 3rem;
+   text-transform: capitalize;
+}
+.btn:hover{
+   background-color: black;
+}
+.contact .pop{
+  width: 400px;
+  background-color: antiquewhite;
+  border: 3px solid black;
+  
+}
